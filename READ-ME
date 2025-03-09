@@ -1,0 +1,56 @@
+Sales Data Analysis - SQL & Python
+This project uses SQL queries and Python libraries to analyze sales data and provide various visualizations.
+
+📝 Content
+SQL Queries:
+
+Maximum, minimum, and total sales analysis by store
+Comparison of average sales on holiday and non-holiday days
+Time series analysis (sales totals by year and month)
+Missing data detection and data cleaning operations
+Python Analysis and Visualization:
+
+Graphical analysis of sales data using Seaborn and Matplotlib
+Bar charts showing maximum sales
+Graphs comparing holiday days with non-holiday days
+Line chart analysis of time series data
+📊 Technologies Used
+Database: Microsoft SQL Server
+Python Libraries: Pandas, NumPy, Seaborn, Matplotlib, Pyodbc
+📌 Installation
+Create the salesDB database in SQL Server and load the train table.
+Install the required Python libraries:
+bash
+Kopyala
+Düzenle
+pip install pandas numpy seaborn matplotlib pyodbc
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# Sales Data Analysis - SQL & Python
+
+Bu proje, satış verilerini analiz etmek için SQL sorgularını ve Python kütüphanelerini kullanarak çeşitli görselleştirmeler sunar.
+
+## 📝 İçerik
+- **SQL Sorguları:**
+  - Mağaza bazlı maksimum, minimum ve toplam satış analizleri
+  - Tatil günleri ve normal günlerde ortalama satış karşılaştırmaları
+  - Zaman serisi analizi (yıl ve ay bazlı satış toplamları)
+  - Eksik veri tespiti ve veri temizleme işlemleri
+
+- **Python Analiz ve Görselleştirme:**
+  - Seaborn ve Matplotlib ile satış verilerinin grafiksel analizi
+  - Maksimum satışları gösteren bar grafikleri
+  - Tatil günleri ile normal günleri karşılaştıran grafikler
+  - Zaman serisi verilerinin çizgi grafik analizi
+
+## 📊 Kullanılan Teknolojiler
+- **Veritabanı:** Microsoft SQL Server  
+- **Python Kütüphaneleri:** Pandas, NumPy, Seaborn, Matplotlib, Pyodbc  
+
+## 📌 Kurulum
+1. SQL Server’da `salesDB` veritabanını oluşturun ve `train` tablosunu yükleyin.
+2. Gerekli Python kütüphanelerini yükleyin:
+   ```bash
+   pip install pandas numpy seaborn matplotlib pyodbc
